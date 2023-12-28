@@ -1,5 +1,5 @@
 {
-  "extensions": [
+  "recommendations": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
@@ -18,10 +18,5 @@
     "wix.vscode-import-cost",
     "xabikos.JavaScriptSnippets",
     "ZainChen.json"
-    // Additional Extensions Here
-  ],
-  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
-  "postAttachCommand": "git pull --all"
+  ]
 }
-
-// DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
